@@ -35,7 +35,13 @@ Desenvolvimento de software, Tecnologia, Metodologias ágeis, Educação, Desenv
 #### Bloco 1: Introdução - Unix & Shell 
 
 - [x] 1-3: *_Unix & Bash - Part 1_*
-- [ ] 1-4: *_Unix & Bash - Part 2_*
+- [x] 1-4: *_Unix & Bash - Part 2_*
+- [ ] 1-5: *_Shell Script_*
 
+#### Bloco 2: Git & GitHub
+
+- [ ] 2-1: *O que é e para que serve?*
+- [ ] 2-2: *Entendendo os comandos*
+- [ ] 2-3: *Internet - Entendendo como ela funciona*
 
 #### [...]
