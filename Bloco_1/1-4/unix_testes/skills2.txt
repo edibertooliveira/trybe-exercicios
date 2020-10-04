@@ -1,0 +1,8 @@
+HTML
+CSS
+JavaScript
+TypeScritp
+Ruby
+Internet
+Shell
+Bash
