@@ -36,7 +36,7 @@ Desenvolvimento de software, Tecnologia, Metodologias ágeis, Educação, Desenv
 
 - [x] 1-3: *_Unix & Bash - Part 1_*
 - [x] 1-4: *_Unix & Bash - Part 2_*
-- [ ] 1-5: *_Shell Script_*
+- [x] 1-5: *_Shell Script_*
 
 #### Bloco 2: Git & GitHub
 
