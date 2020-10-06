@@ -40,7 +40,7 @@ Desenvolvimento de software, Tecnologia, Metodologias ágeis, Educação, Desenv
 
 #### Bloco 2: Git & GitHub
 
-- [x ] 2-1: *O que é e para que serve?*
+- [x] 2-1: *O que é e para que serve?*
 - [ ] 2-2: *Entendendo os comandos*
 - [ ] 2-3: *Internet - Entendendo como ela funciona*
 
