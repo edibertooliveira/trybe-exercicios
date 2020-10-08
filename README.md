@@ -47,10 +47,10 @@ Desenvolvimento de software, Tecnologia, Metodologias ágeis, Educação, Desenv
 #### Bloco 3: Introdução à HTML e CSS
 
 - [ ] 3-1: *Introdução - HTML & CSS*
-- [ ] 3-1: *HTML & CSS - Estruturas de página*
-- [ ] 3-1: *HTML & CSS - Primeiros passos em CSS*
-- [ ] 3-1: *HTML & CSS - Seletores e posicionamento*
-- [ ] 3-1: *HTML Semântico*
-- [ ] 3-1: *Projeto - Lessons Learned*
+- [ ] 3-2: *HTML & CSS - Estruturas de página*
+- [ ] 3-3: *HTML & CSS - Primeiros passos em CSS*
+- [ ] 3-4: *HTML & CSS - Seletores e posicionamento*
+- [ ] 3-5: *HTML Semântico*
+- [ ] 3-6: *Projeto - Lessons Learned*
 
 #### [...]
