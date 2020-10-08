@@ -42,6 +42,15 @@ Desenvolvimento de software, Tecnologia, Metodologias ágeis, Educação, Desenv
 
 - [x] 2-1: *O que é e para que serve?*
 - [x] 2-2: *Entendendo os comandos*
-- [ ] 2-3: *Internet - Entendendo como ela funciona*
+- [x] 2-3: *Internet - Entendendo como ela funciona*
+
+#### Bloco 3: Introdução à HTML e CSS
+
+- [ ] 3-1: *Introdução - HTML & CSS*
+- [ ] 3-1: *HTML & CSS - Estruturas de página*
+- [ ] 3-1: *HTML & CSS - Primeiros passos em CSS*
+- [ ] 3-1: *HTML & CSS - Seletores e posicionamento*
+- [ ] 3-1: *HTML Semântico*
+- [ ] 3-1: *Projeto - Lessons Learned*
 
 #### [...]
