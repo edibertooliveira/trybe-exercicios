@@ -1,0 +1,28 @@
+body {
+  font-size: 16px;
+}
+
+h1 {
+  font-family: sans-serif;
+}
+
+p {
+  font-weight: 600;
+  font-size: 48px;
+  font-style: oblique;
+  line-height: 40px;
+  text-align: center;
+}
+
+li {
+  background: red;
+}
+
+li:first-child {
+  background: yellow;
+}
+
+li + li + li {
+  background: brown;
+}
+
