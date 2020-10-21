@@ -49,7 +49,7 @@ Desenvolvimento de software, Tecnologia, Metodologias ágeis, Educação, Desenv
 - [X] 3-1: *Introdução - HTML & CSS*
 - [x] 3-2: *HTML & CSS - Estruturas de página*
 - [x] 3-3: *HTML & CSS - Primeiros passos em CSS*
-- [ ] 3-4: *HTML & CSS - Seletores e posicionamento*
+- [x] 3-4: *HTML & CSS - Seletores e posicionamento*
 - [ ] 3-5: *HTML Semântico*
 - [ ] 3-6: *Projeto - [Lessons-Learned](https://github.com/edibertooliveira/).*
 
