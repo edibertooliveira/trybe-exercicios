@@ -50,6 +50,6 @@ Desenvolvimento de software, Tecnologia, Metodologias ágeis, Educação, Desenv
 - [x] 3-2: *HTML & CSS - Primeiros passos em CSS*
 - [x] 3-3: *HTML & CSS - Seletores e posicionamento*
 - [X] 3-4: *HTML Semântico*
-- [ ] 3-6: *Projeto - [Lessons-Learned](https://github.com/edibertooliveira/).*
+- [ ] 3-5: *Projeto - [Lessons-Learned](https://github.com/edibertooliveira/).*
 
 #### [...]
