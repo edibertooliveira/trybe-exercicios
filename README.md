@@ -50,6 +50,16 @@ Desenvolvimento de software, Tecnologia, Metodologias ágeis, Educação, Desenv
 - [x] 3-2: *HTML & CSS - Primeiros passos em CSS*
 - [x] 3-3: *HTML & CSS - Seletores e posicionamento*
 - [X] 3-4: *HTML Semântico*
-- [ ] 3-5: *Projeto - [Lessons-Learned](https://github.com/edibertooliveira/).*
+- [X] 3-5: *Projeto - [Lessons-Learned](https://github.com/tryber/sd-08-project-lessons-learned/pull/12).*
+
+#### Bloco 4: Introdução - JavaScript
+
+- [ ] 4-1: *JavaScript - Primeiros passos*
+- [ ] 4-2: *JavaScript - Array e loop For*
+- [ ] 4-3: *JavaScript - Objetos e funções*
+- [ ] 4-4: *JavaScript - DOM e seletores*
+- [ ] 4-5: *JavaScript - Trabalhando com elementos*
+- [ ] 4-6: *JavaScript - Eventos*
+- [ ] 4-7: *JavaScript - Web Storage*
 
 #### [...]
