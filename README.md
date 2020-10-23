@@ -54,7 +54,7 @@ Desenvolvimento de software, Tecnologia, Metodologias ágeis, Educação, Desenv
 
 #### Bloco 4: Introdução - JavaScript
 
-- [ ] 4-1: *JavaScript - Primeiros passos*
+- [X] 4-1: *JavaScript - Primeiros passos*
 - [ ] 4-2: *JavaScript - Array e loop For*
 - [ ] 4-3: *JavaScript - Objetos e funções*
 - [ ] 4-4: *JavaScript - DOM e seletores*
