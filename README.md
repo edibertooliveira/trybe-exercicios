@@ -34,28 +34,28 @@ Desenvolvimento de software, Tecnologia, Metodologias ágeis, Educação, Desenv
 
 #### Bloco 1: Introdução - Unix & Shell 
 
-- [x] 1-3: *_Unix & Bash - Part 1_*
-- [x] 1-4: *_Unix & Bash - Part 2_*
-- [x] 1-5: *_Shell Script_*
+- [X] 1-3: *_Unix & Bash - Part 1_*
+- [X] 1-4: *_Unix & Bash - Part 2_*
+- [X] 1-5: *_Shell Script_*
 
 #### Bloco 2: Git & GitHub
 
-- [x] 2-1: *O que é e para que serve?*
-- [x] 2-2: *Entendendo os comandos*
-- [x] 2-3: *Internet - Entendendo como ela funciona*
+- [X] 2-1: *O que é e para que serve?*
+- [X] 2-2: *Entendendo os comandos*
+- [X] 2-3: *Internet - Entendendo como ela funciona*
 
 #### Bloco 3: Introdução à HTML e CSS
 
 - [X] 3-1: *Introdução - HTML & CSS / Estruturas de página*
-- [x] 3-2: *HTML & CSS - Primeiros passos em CSS*
-- [x] 3-3: *HTML & CSS - Seletores e posicionamento*
+- [X] 3-2: *HTML & CSS - Primeiros passos em CSS*
+- [X] 3-3: *HTML & CSS - Seletores e posicionamento*
 - [X] 3-4: *HTML Semântico*
 - [X] 3-5: *Projeto - [Lessons-Learned](https://github.com/tryber/sd-08-project-lessons-learned/pull/12).*
 
 #### Bloco 4: Introdução - JavaScript
 
 - [X] 4-1: *JavaScript - Primeiros passos*
-- [ ] 4-2: *JavaScript - Array e loop For*
+- [X] 4-2: *JavaScript - Array e loop For*
 - [ ] 4-3: *JavaScript - Objetos e funções*
 - [ ] 4-4: *JavaScript - DOM e seletores*
 - [ ] 4-5: *JavaScript - Trabalhando com elementos*
