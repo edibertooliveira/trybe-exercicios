@@ -56,6 +56,14 @@ Desenvolvimento de software, Tecnologia, Metodologias ágeis, Educação, Desenv
 - [x] 4-2: _JavaScript - Array e loop For_
 - [x] 4-3: _JavaScript - JavaScript - Lógica de Programação e Algoritmos_
 - [x] 4-4: _JavaScript - JavaScript - Objetos e funções_
-- [X] 4-5: _JavaScript - Projeto - Playground Functions_
+- [X] 4-5: _Projeto - [Playground Functions](https://github.com/tryber/)._
+
+#### Bloco 5: Introdução - JavaScript - Projetos
+
+- [ ] 5-1: _Projeto - [Meme Generator](https://github.com/tryber/)._
+- [ ] 5-2: _Projeto - [Arte com Pixels](https://github.com/tryber/)._
+- [ ] 5-3: _Projeto - [Lista de tarefas](https://github.com/tryber/)._
+- [ ] 5-4: _Projeto - [Adivinhe a Cor](https://github.com/tryber/)._
+- [ ] 5-5: _Projeto - [Carta Misteriosa](https://github.com/tryber/)._
 
 #### [...]
