@@ -56,6 +56,6 @@ Desenvolvimento de software, Tecnologia, Metodologias ágeis, Educação, Desenv
 - [x] 4-2: _JavaScript - Array e loop For_
 - [x] 4-3: _JavaScript - JavaScript - Lógica de Programação e Algoritmos_
 - [x] 4-4: _JavaScript - JavaScript - Objetos e funções_
-- [ ] 4-5: _JavaScript - Projeto - Playground Functions_
+- [X] 4-5: _JavaScript - Projeto - Playground Functions_
 
 #### [...]
