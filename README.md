@@ -60,7 +60,7 @@ Desenvolvimento de software, Tecnologia, Metodologias ágeis, Educação, Desenv
 
 #### Bloco 5: Introdução - JavaScript - Projetos
 
-- [ ] 5-1: _Projeto - [Meme Generator](https://github.com/tryber/)._
+- [x] 5-1: _Projeto - [Meme Generator](https://github.com/tryber/)._
 - [ ] 5-2: _Projeto - [Arte com Pixels](https://github.com/tryber/)._
 - [ ] 5-3: _Projeto - [Lista de tarefas](https://github.com/tryber/)._
 - [ ] 5-4: _Projeto - [Adivinhe a Cor](https://github.com/tryber/)._
