@@ -60,10 +60,14 @@ Desenvolvimento de software, Tecnologia, Metodologias ágeis, Educação, Desenv
 
 #### Bloco 5: Introdução - JavaScript - Projetos
 
-- [x] 5-1: _Projeto - [Meme Generator](https://github.com/tryber/)._
-- [ ] 5-2: _Projeto - [Arte com Pixels](https://github.com/tryber/)._
-- [ ] 5-3: _Projeto - [Lista de tarefas](https://github.com/tryber/)._
-- [ ] 5-4: _Projeto - [Adivinhe a Cor](https://github.com/tryber/)._
-- [ ] 5-5: _Projeto - [Carta Misteriosa](https://github.com/tryber/)._
+- [x] 5-1: _JavaScript - DOM e seletores_
+- [ ] 5-2: _JavaScript - Trabalhando com elementos_
+- [ ] 5-3: _JavaScript - Eventos_
+- [ ] 5-4: _JavaScript - Web Storage_
+- [ ] 5-5: _Projeto - [Meme Generator](https://github.com/tryber/)._
+- [ ] 5-6: _Projeto - [Arte com Pixels](https://github.com/tryber/)._
+- [ ] 5-7: _Projeto - [Lista de tarefas](https://github.com/tryber/)._
+- [ ] 5-7: _Projeto[Bonus] - [Adivinhe a Cor](https://github.com/tryber/)._
+- [ ] 5-7: _Projeto[Bonus] - [Carta Misteriosa](https://github.com/tryber/)._
 
 #### [...]
