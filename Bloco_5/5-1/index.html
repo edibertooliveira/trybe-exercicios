@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.1</title>
+
+    <style>
+      div {
+        border-color: black;
+        border-style: solid;
+      }
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin: 0 auto;
+        text-transform: uppercase;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="title">Exercício 5.1 - JavaEscripito </h1>
+    <div class="main-content">
+      <div class="center-content">
+        <p>Texto padrão do nosso site</p>
+        <p>-----</p>
+        <p>Trybe</p>
+      </div>
+    </div>
+    <script>
+      //exercicio 01:
+
+      function toggleTextTag(tag) {
+        document.getElementsByTagName('p')[0].innerHTML = tag;
+      }
+      toggleTextTag('Me vejo viajando com muita baguagem na carreira de programação nas costas e bem formado com familia e filho(a) ou filhos(as)');
+
+      //exercicio 02
+
+      function toggleColorTag() {
+        document.getElementsByClassName("main-content")[0].style.backgroundColor = "rgb(76,164,109)";
+      }
+      toggleTextTag ();
+      
+      //exercicio 03
+      
+      function toggleColorTextTag() {
+        document.getElementsByClassName("center-content")[0].style.backgroundColor = "white";
+      }
+      toggleColorTextTag();
+
+      //exercicio 04
+      function redegitTextTag() {
+        document.document.getElementsByTagName("p")[1].innerHTML = conserte;
+      }
+
+      // exercicio 05
+      function textUpcaser() {
+        document.document.getElementsByTagName("p").style.textTransform = 'uppercase';
+      }
+
+      //exercicio 06
+      function showTags() {
+        let tags = document.body;
+        console.log(tags);
+      }
+
+      showTags()
+
+    </script>
+  </body>
+</html>
