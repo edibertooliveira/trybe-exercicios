@@ -31,7 +31,7 @@
     </style>
   </head>
   <body>
-    <h1 class="title">Exercício 5.1 - JavaEscripito </h1>
+    <h1 class="title">Exercício 5.1 - JavaEscripito</h1>
     <div class="main-content">
       <div class="center-content">
         <p>Texto padrão do nosso site</p>
@@ -45,30 +45,33 @@
       function toggleTextTag(tag) {
         document.getElementsByTagName('p')[0].innerHTML = tag;
       }
-      toggleTextTag('Me vejo viajando com muita baguagem na carreira de programação nas costas e bem formado com familia e filho(a) ou filhos(as)');
+      toggleTextTag(
+        'Me vejo viajando com muita baguagem na carreira de programação nas costas e bem formado com familia e filho(a) ou filhos(as)',
+      );
 
       //exercicio 02
 
       function toggleColorTag() {
-        document.getElementsByClassName("main-content")[0].style.backgroundColor = "rgb(76,164,109)";
+        document.getElementsByClassName('main-content')[0].style.backgroundColor =
+          'rgb(76,164,109)';
       }
-      toggleTextTag ();
-      
+      toggleTextTag();
+
       //exercicio 03
-      
+
       function toggleColorTextTag() {
-        document.getElementsByClassName("center-content")[0].style.backgroundColor = "white";
+        document.getElementsByClassName('center-content')[0].style.backgroundColor = 'white';
       }
       toggleColorTextTag();
 
       //exercicio 04
       function redegitTextTag() {
-        document.document.getElementsByTagName("p")[1].innerHTML = conserte;
+        document.document.getElementsByTagName('p')[1].innerHTML = conserte;
       }
 
       // exercicio 05
       function textUpcaser() {
-        document.document.getElementsByTagName("p").style.textTransform = 'uppercase';
+        document.document.getElementsByTagName('p').style.textTransform = 'uppercase';
       }
 
       //exercicio 06
@@ -77,8 +80,7 @@
         console.log(tags);
       }
 
-      showTags()
-
+      showTags();
     </script>
   </body>
 </html>
