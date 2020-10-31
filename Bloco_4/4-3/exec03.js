@@ -1,19 +1,19 @@
-/* 
+/*
 3 - Agora inverta o lado do triângulo. Por exemplo:
 */
-let n = 5;
-let simbolo = "*";
-let inputLine = "";
+const n = 5;
+const simbolo = '*';
+let inputLine = '';
 let inputPosition = n;
-for (i = 0; i < n; i += 1) {
-  for (j = 0; j <= n; j += 1) {
-    if (j < inputPosition) {
-      inputLine = inputLine + " ";
+for (let pass = 0; pass < n; pass += 1) {
+  for (let index = 0; index <= n; index += 1) {
+    if (index < inputPosition) {
+      inputLine += ' ';
     } else {
-      inputLine = inputLine + simbolo;
+      inputLine += simbolo;
     }
   }
   console.log(inputLine);
-  inputLine = "";
-  inputPosition = inputPosition - 1;
+  inputLine = '';
+  inputPosition -= 1;
 }
