@@ -92,6 +92,28 @@
       img.src = 'https://picsum.photos/200';
       img.className = 'small-image';
       document.querySelector('.left-content').appendChild(img);
+
+      // exercicio 08
+      let ul = document.createElement('ul');
+      document.querySelector('.right-content').appendChild(ul);
+
+      let list = [
+        'um',
+        'dois',
+        'tres',
+        'quatro',
+        'cinco',
+        'seis',
+        'sete',
+        'oito',
+        'nove',
+        'dez',
+      ];
+      for (item in list) {
+        let li = document.createElement('li');
+        li.innerText = list[item];
+        document.querySelector('ul').appendChild(li);
+      }
     </script>
   </body>
 </html>
