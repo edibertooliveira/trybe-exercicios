@@ -114,6 +114,13 @@
         li.innerText = list[item];
         document.querySelector('ul').appendChild(li);
       }
+
+      // exercicio 09
+      for (let count = 1; count <= 3; count += 1) {
+        let h3 = document.createElement('h3');
+        h3.innerHTML = 'tag ' + count;
+        document.querySelector('.center-content').appendChild(h3);
+      }
     </script>
   </body>
 </html>
