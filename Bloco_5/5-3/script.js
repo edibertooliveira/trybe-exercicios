@@ -22,6 +22,8 @@ createDaysOfTheWeek();
 
 function createDaysWeek() {
   const listNumber = document.getElementById('days');
+  const friday = [4, 11, 18, 25];
+  const holiday = [24, 25, 31];
   const dezDaysList = [
     29,
     30,
@@ -63,6 +65,12 @@ function createDaysWeek() {
     const createdLi = document.createElement('li');
     createdLi.className = 'day';
     createdLi.innerText = numberItem;
+    if (friday.find((event) => event === numberItem)) {
+      createdLi.className += ' friday';
+    }
+    if (holiday.find((event) => event === numberItem)) {
+      createdLi.className += ' holiday';
+    }
     listNumber.appendChild(createdLi);
   }
 }
