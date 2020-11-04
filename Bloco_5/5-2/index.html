@@ -101,8 +101,8 @@
       document.querySelector('.left-content').appendChild(img);
 
       // exercicio 08
-      let ul = document.createElement('ul');
-      document.querySelector('.right-content').appendChild(ul);
+      let ulTag = document.createElement('ul');
+      let ul = document.querySelector('.right-content').appendChild(ulTag);
 
       let list = [
         'um',
@@ -145,6 +145,18 @@
 
       //exercicio 5
       centerContent.style.backgroundColor = 'green';
+
+      //exercicio 6
+      let listNumber = document.querySelectorAll('li');
+
+      for (let index = 0; index < listNumber.length; index += 1) {
+        let position = listNumber[index];
+        if (
+          position.innerText.includes('nove') ||
+          position.innerText.includes('dez')
+        )
+          ul.removeChild(position);
+      }
     </script>
   </body>
 </html>
