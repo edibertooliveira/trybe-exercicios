@@ -66,7 +66,7 @@
       // exercicio 02
       let div = document.createElement('div');
       div.className = 'main-content';
-      document.body.appendChild(div);
+      let mainContent = document.body.appendChild(div);
 
       // exercicio 03
       let div2 = document.createElement('div');
@@ -138,10 +138,13 @@
       document.querySelectorAll('h3').className = 'description';
 
       //exercicio 3
-      leftContent.removeChild;
+      mainContent.removeChild(leftContent);
 
       //exercicio 4
       rightContent.style.marginRight = 'auto';
+
+      //exercicio 5
+      centerContent.style.backgroundColor = 'green';
     </script>
   </body>
 </html>
