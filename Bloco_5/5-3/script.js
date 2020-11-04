@@ -76,3 +76,14 @@ function createDaysWeek() {
 }
 
 createDaysWeek();
+
+function holidayWeek(holiday) {
+  let localeBtn = document.querySelector('.buttons-container');
+  let createdBtn = document.createElement('button');
+  createdBtn.innerText = holiday;
+  createdBtn.id = 'btn-holiday';
+
+  localeBtn.appendChild(createdBtn);
+}
+
+holidayWeek('Feriado');
