@@ -142,3 +142,21 @@ function toggleText() {
 }
 
 clickBtn('btn-friday', toggleText);
+
+//exercicio 6
+function zoom(target, size) {
+  return (target.style.fontSize = `${size}px`);
+}
+function addZoom(events, value) {
+  let localedLi = document.querySelector('#days');
+  localedLi.addEventListener(events, (element) => {
+    zoom(element.path[0], value);
+  });
+}
+
+function zoomNumberWeek() {
+  addZoom('mouseover', 25);
+  addZoom('mouseout', 20);
+}
+
+zoomNumberWeek();
