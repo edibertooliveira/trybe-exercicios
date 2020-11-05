@@ -80,11 +80,22 @@ createDaysWeek();
 
 //exercicio 2
 
-function createdElementHTML(name, locale, type, id) {
+function ehId(target, id) {
+  return !id ? '' : (target.id = id);
+}
+function ehClass(target, className) {
+  return !className ? '' : (target.className = className);
+}
+function ehName(target, name) {
+  return !name ? '' : (target.innerText = name);
+}
+
+function createdElementHTML(name, locale, type, id, className) {
   let localeBtn = document.querySelector(`.${locale}`);
   let createdElement = document.createElement(type);
-  createdElement.innerText = name;
-  createdElement.id = id;
+  ehName(createdElement, name);
+  ehId(createdElement, id);
+  ehClass(createdElement, className);
   localeBtn.appendChild(createdElement);
 }
 
@@ -164,7 +175,15 @@ zoomNumberWeek();
 //exercicio 7
 
 function taskList(task) {
-  createdElementHTML(task, 'my-tasks', 'span', false);
+  createdElementHTML(task, 'my-tasks', 'span');
+  taskListColor('yellow');
 }
 
 taskList('café');
+
+//exercicio 8
+
+function taskListColor(color) {
+  createdElementHTML(false, 'my-tasks', 'div', false, 'task');
+  document.querySelector('.task').style.backgroundColor = color;
+}
