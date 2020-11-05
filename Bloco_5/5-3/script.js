@@ -79,16 +79,16 @@ function createDaysWeek() {
 createDaysWeek();
 
 //exercicio 2
-function holidayWeek(holiday) {
-  let localeBtn = document.querySelector('.buttons-container');
-  let createdBtn = document.createElement('button');
-  createdBtn.innerText = holiday;
-  createdBtn.id = 'btn-holiday';
 
+function createdBtn(name, locale, id) {
+  let localeBtn = document.querySelector(`.${locale}`);
+  let createdBtn = document.createElement('button');
+  createdBtn.innerText = name;
+  createdBtn.id = id;
   localeBtn.appendChild(createdBtn);
 }
 
-holidayWeek('Feriado');
+createdBtn('Feriado', 'buttons-container', 'btn-holiday');
 
 //exercicio 3
 
@@ -115,3 +115,7 @@ function clickBtnHoliday() {
 }
 
 clickBtnHoliday();
+
+//exercicio 4
+
+createdBtn('Sexta-feira', 'buttons-container', 'btn-friday');
