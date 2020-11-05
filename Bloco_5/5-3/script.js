@@ -175,8 +175,8 @@ zoomNumberWeek();
 // exercicio 7
 
 function taskList(task) {
-  createdElementHTML(task, 'my-tasks', 'span');
   taskListColor('yellow');
+  createdElementHTML(task, 'my-tasks', 'span');
 }
 
 taskList('café');
