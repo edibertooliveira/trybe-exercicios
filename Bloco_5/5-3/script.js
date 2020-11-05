@@ -21,6 +21,7 @@ function createDaysOfTheWeek() {
 createDaysOfTheWeek();
 
 // exercicio 1
+
 function createDaysWeek() {
   const listNumber = document.getElementById('days');
   const friday = [4, 11, 18, 25];
@@ -155,6 +156,7 @@ function toggleText() {
 clickBtn('btn-friday', toggleText);
 
 // exercicio 6
+
 function zoom(target, size) {
   return (target.style.fontSize = `${size}px`);
 }
@@ -189,18 +191,40 @@ function taskListColor(color) {
 }
 
 // exercicio 9
+
 function selectedTask(element) {
   return element.classList.toggle('selected');
 }
+
+let colorCurrent;
 
 function clickTask(locale, events, callback) {
   const localedTask = document.querySelectorAll(`.${locale}`);
   localedTask.forEach((element) => {
     element.addEventListener(events, (event) => {
       const elementEvent = event.path[0];
+      colorCurrent = event.path[0].style.backgroundColor;
       callback(elementEvent);
     });
   });
 }
 
 clickTask('task', 'click', selectedTask);
+
+// exercicio 10
+let day = false;
+
+function addEventColorDays() {
+  const clickDay = document.querySelector('#days');
+  clickDay.addEventListener('click', (event) => {
+    const elementEvent = event.path[0];
+    day = !day;
+    if (day) {
+      elementEvent.style.backgroundColor = colorCurrent;
+    } else {
+      elementEvent.style.backgroundColor = 'rgb(238,238,238)';
+    }
+  });
+}
+
+addEventColorDays();
