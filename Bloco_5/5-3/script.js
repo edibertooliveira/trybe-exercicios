@@ -80,15 +80,15 @@ createDaysWeek();
 
 //exercicio 2
 
-function createdBtn(name, locale, id) {
+function createdElementHTML(name, locale, type, id) {
   let localeBtn = document.querySelector(`.${locale}`);
-  let createdBtn = document.createElement('button');
-  createdBtn.innerText = name;
-  createdBtn.id = id;
-  localeBtn.appendChild(createdBtn);
+  let createdElement = document.createElement(type);
+  createdElement.innerText = name;
+  createdElement.id = id;
+  localeBtn.appendChild(createdElement);
 }
 
-createdBtn('Feriado', 'buttons-container', 'btn-holiday');
+createdElementHTML('Feriado', 'buttons-container', 'button', 'btn-holiday');
 
 //exercicio 3
 
@@ -119,7 +119,7 @@ clickBtn('btn-holiday', toggleColor);
 
 //exercicio 4
 
-createdBtn('Sexta-feira', 'buttons-container', 'btn-friday');
+createdElementHTML('Sexta-feira', 'buttons-container', 'button', 'btn-friday');
 
 //exercicio 5
 
@@ -160,3 +160,11 @@ function zoomNumberWeek() {
 }
 
 zoomNumberWeek();
+
+//exercicio 7
+
+function taskList(task) {
+  createdElementHTML(task, 'my-tasks', 'span', false);
+}
+
+taskList('café');
