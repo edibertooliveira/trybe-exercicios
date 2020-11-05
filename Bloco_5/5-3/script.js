@@ -20,7 +20,7 @@ function createDaysOfTheWeek() {
 }
 createDaysOfTheWeek();
 
-//exercicio 1
+// exercicio 1
 function createDaysWeek() {
   const listNumber = document.getElementById('days');
   const friday = [4, 11, 18, 25];
@@ -78,7 +78,7 @@ function createDaysWeek() {
 
 createDaysWeek();
 
-//exercicio 2
+// exercicio 2
 
 function ehId(target, id) {
   return !id ? '' : (target.id = id);
@@ -91,8 +91,8 @@ function ehName(target, name) {
 }
 
 function createdElementHTML(name, locale, type, id, className) {
-  let localeBtn = document.querySelector(`.${locale}`);
-  let createdElement = document.createElement(type);
+  const localeBtn = document.querySelector(`.${locale}`);
+  const createdElement = document.createElement(type);
   ehName(createdElement, name);
   ehId(createdElement, id);
   ehClass(createdElement, className);
@@ -101,7 +101,7 @@ function createdElementHTML(name, locale, type, id, className) {
 
 createdElementHTML('Feriado', 'buttons-container', 'button', 'btn-holiday');
 
-//exercicio 3
+// exercicio 3
 
 let holiday = true;
 
@@ -111,7 +111,7 @@ function color(target, color) {
 
 function toggleColor() {
   holiday = !holiday;
-  let btnBackgroundColor1 = document.querySelectorAll('.holiday');
+  const btnBackgroundColor1 = document.querySelectorAll('.holiday');
   btnBackgroundColor1.forEach((item) => {
     if (holiday) {
       color(item, 'rgb(238,238,238)');
@@ -122,17 +122,17 @@ function toggleColor() {
 }
 
 function clickBtn(locale, callback) {
-  let btn = document.getElementById(locale);
+  const btn = document.getElementById(locale);
   btn.addEventListener('click', callback);
 }
 
 clickBtn('btn-holiday', toggleColor);
 
-//exercicio 4
+// exercicio 4
 
 createdElementHTML('Sexta-feira', 'buttons-container', 'button', 'btn-friday');
 
-//exercicio 5
+// exercicio 5
 
 let friday = false;
 function text(target, text) {
@@ -141,12 +141,12 @@ function text(target, text) {
 
 function toggleText() {
   friday = !friday;
-  let btnBackgroundColor1 = document.querySelectorAll('.friday');
+  const btnBackgroundColor1 = document.querySelectorAll('.friday');
   btnBackgroundColor1.forEach((item) => {
     if (friday) {
       text(item, 'Sextouu!');
     } else {
-      let returnValue = item.nextElementSibling.innerText - 1;
+      const returnValue = item.nextElementSibling.innerText - 1;
       text(item, returnValue);
     }
   });
@@ -154,12 +154,12 @@ function toggleText() {
 
 clickBtn('btn-friday', toggleText);
 
-//exercicio 6
+// exercicio 6
 function zoom(target, size) {
   return (target.style.fontSize = `${size}px`);
 }
 function addZoom(events, value) {
-  let localedLi = document.querySelector('#days');
+  const localedLi = document.querySelector('#days');
   localedLi.addEventListener(events, (element) => {
     zoom(element.path[0], value);
   });
@@ -172,7 +172,7 @@ function zoomNumberWeek() {
 
 zoomNumberWeek();
 
-//exercicio 7
+// exercicio 7
 
 function taskList(task) {
   createdElementHTML(task, 'my-tasks', 'span');
@@ -181,9 +181,26 @@ function taskList(task) {
 
 taskList('café');
 
-//exercicio 8
+// exercicio 8
 
 function taskListColor(color) {
   createdElementHTML(false, 'my-tasks', 'div', false, 'task');
   document.querySelector('.task').style.backgroundColor = color;
 }
+
+// exercicio 9
+function selectedTask(element) {
+  return element.classList.toggle('selected');
+}
+
+function clickTask(locale, events, callback) {
+  const localedTask = document.querySelectorAll(`.${locale}`);
+  localedTask.forEach((element) => {
+    element.addEventListener(events, (event) => {
+      const elementEvent = event.path[0];
+      callback(elementEvent);
+    });
+  });
+}
+
+clickTask('task', 'click', selectedTask);
