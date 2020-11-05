@@ -92,16 +92,17 @@ createdBtn('Feriado', 'buttons-container', 'btn-holiday');
 
 //exercicio 3
 
-let status = true;
+let holiday = true;
+
 function color(target, color) {
   return (target.style.backgroundColor = color);
 }
 
 function toggleColor() {
-  status = !status;
+  holiday = !holiday;
   let btnBackgroundColor1 = document.querySelectorAll('.holiday');
   btnBackgroundColor1.forEach((item) => {
-    if (status) {
+    if (holiday) {
       color(item, 'rgb(238,238,238)');
     } else {
       color(item, 'rgb(238,238,138)');
@@ -109,13 +110,35 @@ function toggleColor() {
   });
 }
 
-function clickBtnHoliday() {
-  let btn = document.getElementById('btn-holiday');
-  btn.addEventListener('click', toggleColor);
+function clickBtn(locale, callback) {
+  let btn = document.getElementById(locale);
+  btn.addEventListener('click', callback);
 }
 
-clickBtnHoliday();
+clickBtn('btn-holiday', toggleColor);
 
 //exercicio 4
 
 createdBtn('Sexta-feira', 'buttons-container', 'btn-friday');
+
+//exercicio 5
+
+let friday = false;
+function text(target, text) {
+  return (target.innerText = text);
+}
+
+function toggleText() {
+  friday = !friday;
+  let btnBackgroundColor1 = document.querySelectorAll('.friday');
+  btnBackgroundColor1.forEach((item) => {
+    if (friday) {
+      text(item, 'Sextouu!');
+    } else {
+      let returnValue = item.nextElementSibling.innerText - 1;
+      text(item, returnValue);
+    }
+  });
+}
+
+clickBtn('btn-friday', toggleText);
