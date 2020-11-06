@@ -5,63 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Leitor</title>
-    <style>
-      body {
-        display: flex;
-        margin: 10px;
-      }
-      .preferences {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-wrap: wrap;
-        border: 1px solid green;
-      }
-      .options {
-        display: flex;
-        flex-direction: column;
-      }
-      .title {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-      .description {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-style: italic;
-      }
-      .content {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin: 15px;
-      }
-      .paragraph {
-        display: flex;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <section class="preferences">
       <div id="background-color" class="options">
         <span>Cor de fundo</span>
+        <button id="white">Branco</button>
+        <button id="black">Preto</button>
+        <button id="grey">Cinza</button>
       </div>
       <div id="font-color" class="options">
         <span>Cor da fonte</span>
+        <button id="black">Preto</button>
+        <button id="red">vermelhor</button>
+        <button id="blue">azul</button>
       </div>
       <div id="font-size" class="options">
         <span>Tamanho da fonte</span>
+        <button id="10">10px</button>
+        <button id="12">12px</button>
+        <button id="14">14px</button>
       </div>
       <div id="line-height" class="options">
         <span>Espaçamento entre as linhas</span>
+        <button id="12">12px</button>
+        <button id="16">16px</button>
+        <button id="20">20px</button>
       </div>
       <div id="font-family" class="options">
         <span>Tipo da fonte</span>
+        <button id="Arial">Arial</button>
+        <button id="Roboto">Roboto</button>
+        <button id="Georgia">Georgia</button>
       </div>
     </section>
-    <article>
+    <article class="content-article">
       <section class="title">
         <h1>Lorem Ipsum</h1>
       </section>
@@ -186,5 +165,6 @@
         </p>
       </section>
     </article>
+    <script src="script.js"></script>
   </body>
 </html>
