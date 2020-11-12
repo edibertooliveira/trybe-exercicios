@@ -1,4 +1,5 @@
 const localeSelectorCountry = document.getElementById('select-country');
+const localeInputDateInicialaze = document.getElementById('data-inicial');
 const listCountry = [
   { uf: 'AC', nome: 'Acre' },
   { uf: 'AL', nome: 'Alagoas' },
@@ -38,4 +39,11 @@ function loadStatesSelect() {
   }
 }
 
+function checketFormDate() {
+  const checked = localeInputDateInicialaze.value;
+  console.log(checked);
+  checked != Number ? checked : alert('erro');
+}
+
+localeInputDateInicialaze.addEventListener('change', checketFormDate);
 localeSelectorCountry.addEventListener('mouseover', loadStatesSelect);
