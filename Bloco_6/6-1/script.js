@@ -1,5 +1,6 @@
 const localeSelectorCountry = document.getElementById('select-country');
 const localeInputDateInicialaze = document.getElementById('data-inicial');
+const localeButtonSubmit = document.getElementById('submit');
 const listCountry = [
   { uf: 'AC', nome: 'Acre' },
   { uf: 'AL', nome: 'Alagoas' },
@@ -44,6 +45,20 @@ function checketFormDate() {
   console.log(checked);
   checked != Number ? checked : alert('erro');
 }
+function clearForm() {
+  document.querySelectorAll('input').forEach((element) => {
+    element.value = '';
+  });
+}
 
+function submitForm() {
+  preventDefault();
+  clearForm();
+}
+
+localeInputDateInicialaze.addEventListener('click', (element) => {
+  element.preventDefault();
+  submitForm();
+});
 localeInputDateInicialaze.addEventListener('change', checketFormDate);
 localeSelectorCountry.addEventListener('mouseover', loadStatesSelect);
