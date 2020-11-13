@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Criando um formulário de currículo</title>
+    <link rel="stylesheet" href="bulma.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <form action="" method="POST">
+      <fieldset class="field">
+        <div class="control">
+          <label class="label" for="nome">Nome</label>
+          <input class="input" name="nome" type="text" />
+          <label class="label" for="email">email</label>
+          <input class="input" name="email" type="email" />
+          <label class="label" for="cpf">CPF</label>
+          <input class="input" name="cpf" type="text" />
+          <label class="label" for="endereco">Endereço</label>
+          <input class="input" name="endereco" type="text" />
+          <label class="label" for="cidade">Cidade</label>
+          <input class="input" name="cidade" type="text" />
+          <label class="label" for="estado">Estados</label>
+          <div class="select">
+            <select id="select-country" name="estados-brasil"></select>
+          </div>
+        </div>
+        <div class="field">
+          <div class="control">
+            <label class="radio" for="tipo"
+              ><input name="tipo" type="radio" />Apartamento
+            </label>
+            <label class="radio" for="tipo"
+              ><input name="tipo" type="radio" />Casa
+            </label>
+          </div>
+        </div>
+      </fieldset>
+      <fieldset class="field">
+        <div class="control">
+          <legend class="label">Dados do seu último emprego</legend>
+          <label class="label" for="resumo">Resumo do currículo</label>
+          <textarea
+            class="textarea"
+            name="resumo"
+            id="resumo"
+            maxlength="1000"
+            cols="40"
+            rows="10"
+            required
+          ></textarea>
+          <label class="label" for="cargo">Cargo</label>
+          <input
+            class="input"
+            type="text"
+            name="cargo"
+            id="cargo"
+            maxlength="40"
+            required
+          />
+          <label class="label" for="descricao ">Descrição do cargo</label>
+          <input
+            class="input"
+            type="text"
+            name="cargo"
+            id="cargo"
+            maxlength="500"
+            required
+          />
+          <label class="label" for="data-inicial">Data de início</label>
+          <input
+            class="input"
+            id="data-inicial"
+            name="data-inicial"
+            type="date"
+            placeholder="00/00/0000"
+            required
+          />
+        </div>
+      </fieldset>
+      <button class="button is-primary" id="submit" type="submit">
+        Enviar
+      </button>
+      <button class="button is-light" id="clear" type="Limpar">Limpar</button>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
