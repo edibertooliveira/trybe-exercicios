@@ -70,11 +70,11 @@ Desenvolvimento de software, Tecnologia, Metodologias ágeis, Educação, Desenv
 - [ ] 5-7: _Projeto[Bonus] - [Adivinhe a Cor](https://github.com/tryber/)._
 - [ ] 5-7: _Projeto[Bonus] - [Carta Misteriosa](https://github.com/tryber/)._
 
-#### Bloco 6: Introdução - Front-end
+#### Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo
 
 - [x] 6-1: _HTML & CSS - Forms_
 - [x] 6-2: _Bibliotecas JavaScript e Frameworks CSS_
-- [ ] 6-3: _CSS Flexbox - Part 1_
+- [x] 6-3: _CSS Flexbox - Part 1_
 - [ ] 6-4: _CSS Flexbox - Part 2_
 - [ ] 6-5: _CSS Responsivo - Mobile First_
 - [ ] 6-6: _Projeto - [Página inicial do Facebook](https://github.com/tryber/)._
