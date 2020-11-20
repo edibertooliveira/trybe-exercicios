@@ -77,6 +77,6 @@ Desenvolvimento de software, Tecnologia, Metodologias ágeis, Educação, Desenv
 - [x] 6-3: _CSS Flexbox - Part 1_
 - [x] 6-4: _CSS Flexbox - Part 2_
 - [x] 6-5: _CSS Responsivo - Mobile First_
-- [ ] 6-6: _Projeto - [Página inicial do Facebook](https://github.com/tryber/)._
+- [x] 6-6: _Projeto - [Página inicial do Facebook](https://github.com/tryber/sd-08-project-facebook-signup/pull/40)._
 
 #### [...]
