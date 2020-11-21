@@ -67,8 +67,8 @@ Desenvolvimento de software, Tecnologia, Metodologias ágeis, Educação, Desenv
 - [x] 5-5: _Projeto - [Arte com Pixels](https://github.com/tryber/sd-08-project-pixels-art/pull/110)._
 - [x] 5-6: _Projeto - [Lista de tarefas](https://github.com/tryber/sd-08-project-todo-list/pull/45)._
 - [x] 5-7: _Projeto[Bonus] - [Meme Generator](https://github.com/tryber/sd-08-project-meme-generate/pull/29)._
-- [x] 5-7: _Projeto[Bonus] - [Adivinhe a Cor](https://github.com/tryber/)._
-- [x] 5-7: _Projeto[Bonus] - [Carta Misteriosa](https://github.com/tryber/)._
+- [x] 5-7: _Projeto[Bonus] - [Adivinhe a Cor](https://github.com/tryber/sd-08-project-color-guess/pull/18)._
+- [x] 5-7: _Projeto[Bonus] - [Carta Misteriosa](https://github.com/tryber/sd-08-project-mistery-letter/pull/12)._
 
 #### Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo
 
@@ -78,5 +78,19 @@ Desenvolvimento de software, Tecnologia, Metodologias ágeis, Educação, Desenv
 - [x] 6-4: _CSS Flexbox - Part 2_
 - [x] 6-5: _CSS Responsivo - Mobile First_
 - [x] 6-6: _Projeto - [Página inicial do Facebook](https://github.com/tryber/sd-08-project-facebook-signup/pull/40)._
+
+#### Bloco 7: JavaScript ES6 & Testes Unitários
+
+- [ ] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
+- [ ] 7-2: _JavaScript ES6 - Objects_
+- [ ] 7-3: _Testes unitários em JavaScript_
+- [ ] 7-4: _Projeto - [JavaScript Testes Unitários]()_
+
+#### Bloco 8: JavaScript ES6
+
+- [ ] 8-1: _JavaScript ES6 - Higher Order Functions - forEach, find, filter, some, every, sort_
+- [ ] 8-2: _JavaScript ES6 - Higher Order Functions - map e reduce_
+- [ ] 8-3: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
+- [ ] 8-4: _Projeto - [Zoo functions]()_
 
 #### [...]
