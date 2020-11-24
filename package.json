@@ -1,0 +1,29 @@
+{
+  "name": "trybe",
+  "version": "1.0.0",
+  "description": "> Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Ediberto bonfim de Oliveira](https://www.linkedin.com/in/ediberto-b-oliveira-872926178/)_ enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edibertooliveira/trybe-exercicios.git"
+  },
+  "keywords": [],
+  "author": "Ediberto BO",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edibertooliveira/trybe-exercicios/issues"
+  },
+  "homepage": "https://github.com/edibertooliveira/trybe-exercicios#readme",
+  "devDependencies": {
+    "eslint": "^7.13.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "jest": "^26.6.3",
+    "prettier": "^2.1.2"
+  }
+}
