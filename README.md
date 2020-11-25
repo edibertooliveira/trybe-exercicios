@@ -83,7 +83,7 @@ Desenvolvimento de software, Tecnologia, Metodologias ágeis, Educação, Desenv
 
 - [x] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
 - [x] 7-2: _JavaScript ES6 - Objects_
-- [ ] 7-3: _Testes unitários em JavaScript_
+- [x] 7-3: _Testes unitários em JavaScript_
 - [ ] 7-4: _Projeto - [JavaScript Testes Unitários]()_
 
 #### Bloco 8: JavaScript ES6
