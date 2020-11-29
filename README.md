@@ -90,7 +90,8 @@ Desenvolvimento de software, Tecnologia, Metodologias ágeis, Educação, Desenv
 
 - [ ] 8-1: _JavaScript ES6 - Higher Order Functions - forEach, find, filter, some, every, sort_
 - [ ] 8-2: _JavaScript ES6 - Higher Order Functions - map e reduce_
-- [ ] 8-3: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
-- [ ] 8-4: _Projeto - [Zoo functions]()_
+- [ ] 8-3: _JavaScript ES6 - Higher Order Functions - reduce_
+- [ ] 8-4: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
+- [ ] 8-5: _Projeto - [Zoo functions]()_
 
 #### [...]
