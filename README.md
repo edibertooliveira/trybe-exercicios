@@ -84,13 +84,14 @@ Desenvolvimento de software, Tecnologia, Metodologias ágeis, Educação, Desenv
 - [x] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
 - [x] 7-2: _JavaScript ES6 - Objects_
 - [x] 7-3: _Testes unitários em JavaScript_
-- [ ] 7-4: _Projeto - [JavaScript Testes Unitários]()_
+- [x] 7-4: _Projeto - [JavaScript Testes Unitários](https://github.com/tryber/sd-08-project-js-unit-tests/pull/18)_
 
 #### Bloco 8: JavaScript ES6
 
 - [ ] 8-1: _JavaScript ES6 - Higher Order Functions - forEach, find, filter, some, every, sort_
 - [ ] 8-2: _JavaScript ES6 - Higher Order Functions - map e reduce_
-- [ ] 8-3: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
-- [ ] 8-4: _Projeto - [Zoo functions]()_
+- [ ] 8-3: _JavaScript ES6 - Higher Order Functions - reduce_
+- [ ] 8-4: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
+- [ ] 8-5: _Projeto - [Zoo functions]()_
 
 #### [...]
