@@ -88,10 +88,10 @@ Desenvolvimento de software, Tecnologia, Metodologias ágeis, Educação, Desenv
 
 #### Bloco 8: JavaScript ES6
 
-- [ ] 8-1: _JavaScript ES6 - Higher Order Functions - forEach, find, filter, some, every, sort_
-- [ ] 8-2: _JavaScript ES6 - Higher Order Functions - map e reduce_
-- [ ] 8-3: _JavaScript ES6 - Higher Order Functions - reduce_
-- [ ] 8-4: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
-- [ ] 8-5: _Projeto - [Zoo functions](https://github.com/tryber/sd-08-project-zoo-function/pull/37)_
+- [x] 8-1: _JavaScript ES6 - Higher Order Functions - forEach, find, filter, some, every, sort_
+- [x] 8-2: _JavaScript ES6 - Higher Order Functions - map e reduce_
+- [x] 8-3: _JavaScript ES6 - Higher Order Functions - reduce_
+- [x] 8-4: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
+- [x] 8-5: _Projeto - [Zoo functions](https://github.com/tryber/sd-08-project-zoo-function/pull/37)_
 
 #### [...]
