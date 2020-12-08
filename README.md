@@ -94,4 +94,17 @@ Desenvolvimento de software, Tecnologia, Metodologias ágeis, Educação, Desenv
 - [x] 8-4: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
 - [x] 8-5: _Projeto - [Zoo functions](https://github.com/tryber/sd-08-project-zoo-function/pull/37)_
 
+#### Bloco 9: Assincronicidade & Callbacks
+
+- [ ] 9-1: _JavaScript Assíncrono e Callbacks_
+- [ ] 9-2: _JavaScript Promises_
+- [ ] 9-3: _Projeto - [Carrinho de Compras]()_
+
+#### Bloco 10: Jest
+
+- [ ] 10-1: _Primeiros passos no Jest_
+- [ ] 10-2: _Jest - Testes Assíncronos_
+- [ ] 10-3: _Jest - Simulando comportamentos_
+- [ ] 10-4: _Projeto - [Jest Assíncrono e Mocking]()_
+
 #### [...]
