@@ -96,9 +96,9 @@ Desenvolvimento de software, Tecnologia, Metodologias ágeis, Educação, Desenv
 
 #### Bloco 9: Assincronicidade & Callbacks
 
-- [ ] 9-1: _JavaScript Assíncrono e Callbacks_
-- [ ] 9-2: _JavaScript Promises_
-- [ ] 9-3: _Projeto - [Carrinho de Compras]()_
+- [x] 9-1: _JavaScript Assíncrono e Callbacks_
+- [x] 9-2: _JavaScript Promises_
+- [x] 9-3: _Projeto - [Carrinho de Compras](https://github.com/tryber/sd-08-project-shopping-cart/pull/45)_
 
 #### Bloco 10: Jest
 
