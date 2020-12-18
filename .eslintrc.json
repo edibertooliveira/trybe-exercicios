@@ -11,5 +11,13 @@
   "rules": {
     "quotes": ["error", "single"]
     // "no-param-reassign": 0
-  }
+  },
+  "overrides": [
+    {
+      "files": ["**/*.test.js", "**/*.spec.js", "**/*.spec.jsx"],
+      "env": {
+        "jest": true
+      }
+    }
+  ]
 }

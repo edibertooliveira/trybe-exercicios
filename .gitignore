@@ -6,7 +6,7 @@ node_modules
 #file igore
 
 #file log
-
+yarn.lock
 #file exercises
 exercicio-Bonus01.test.js
 exercicio-Bonus02.test.js
