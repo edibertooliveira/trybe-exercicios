@@ -12,11 +12,9 @@ const uppercase = (str, callback) => {
 }
 ```
 
-```
 **Código-base para os exercícios 2 e 3:**
-```
 
-#### 2 - O código a seguir simula uma chamada ao banco de dados para buscar usuários. O resultado dessa busca é uma _Promise_, que é utilizada pelo método `getUserName`.
+_O código a seguir simula uma chamada ao banco de dados para buscar usuários. O resultado dessa busca é uma Promise, que é utilizada pelo método `getUserName`._
 
 ```
 const users = {
@@ -39,12 +37,15 @@ const getUserName = (userID) => {
 }
 ```
 
-#### 3 - Utilizando a sintaxe de Promise , faça um teste que verifique o resultado da função getUserName para o caso em que o usuário é encontrado, e também um teste para o caso em que o usuário não é encontrado.
+#### 2 - Utilizando a sintaxe de Promise , faça um teste que verifique o resultado da função getUserName para o caso em que o usuário é encontrado, e também um teste para o caso em que o usuário não é encontrado.
 
-Dica : Veja os dados falsos utilizados no banco de dados, disponíveis na variável users , para saber quais IDs existem.
-Reescreva o teste do exercício anterior, desta vez utilizando a sintaxe de async/await .
-Dica: Utilize o try/catch para o caso de erro.
-O código abaixo busca no GitHub de um usuário, de acordo com a URL, seus repositórios, e retorna uma lista como resultado. Dada a URL 'https://api.github.com/users/tryber/repos' , faça um teste que verifique que os repositórios 'sd-01-week4-5-project-todo-list' e 'sd-01-week4-5-project-meme-generator' se encontram nessa lista.
+- Dica : Veja os dados falsos utilizados no banco de dados, disponíveis na variável users , para saber quais IDs existem.
+
+#### 3 - Reescreva o teste do exercício anterior, desta vez utilizando a sintaxe de async/await .
+
+- Dica: Utilize o try/catch para o caso de erro.
+
+#### 4 - O código abaixo busca no GitHub de um usuário, de acordo com a URL, seus repositórios, e retorna uma lista como resultado. Dada a URL 'https://api.github.com/users/tryber/repos' , faça um teste que verifique que os repositórios 'sd-01-week4-5-project-todo-list' e 'sd-01-week4-5-project-meme-generator' se encontram nessa lista.
 
 ```
 const fetch = require('node-fetch');
@@ -58,7 +59,7 @@ const getRepos = (url) => {
 }
 ```
 
-#### 4 - Para este exercício, tente adivinhar a saída dos console.log dos testes abaixo sem executá-los, e veja se compreendeu bem o funcionamento do beforeEach e do afterEach .
+#### 5 - Para este exercício, tente adivinhar a saída dos console.log dos testes abaixo sem executá-los, e veja se compreendeu bem o funcionamento do beforeEach e do afterEach .
 
 ```
 beforeEach(() => console.log('1 - beforeEach'));
@@ -74,9 +75,9 @@ describe('Scoped / Nested block', () => {
 });
 ```
 
-#### 5 - Após escrever o que imagina que será o resultado, execute os testes e veja se acertou.
+- Após escrever o que imagina que será o resultado, execute os testes e veja se acertou.
 
-Nesse exercício, você irá criar funções parecidas com código abaixo - o mesmo que foi usado como exemplo sobre os testes de promise.
+#### 6 - Nesse exercício, você irá criar funções parecidas com código abaixo - o mesmo que foi usado como exemplo sobre os testes de promise.
 
 ```
 const Animals = [
@@ -103,7 +104,7 @@ const getListAnimals = (type) => (
 );
 ```
 
-#### 6 - Use como base para os exercícios a seguir:
+- Use como base para os exercícios a seguir:
 
 ##### - 6.1. Adicione uma funcionalidade para buscar pelo nome do animal - crie uma função que deverá passar no teste abaixo.
 
