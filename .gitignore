@@ -4,16 +4,16 @@ node_modules
 
 
 #file igore
-Bloco_10
 
 #file log
-
+yarn.lock
 #file exercises
 exercicio-Bonus01.test.js
 exercicio-Bonus02.test.js
 exercicio-Bonus03.test.js
 exercicio-Bonus04.test.js
 Linguagem Phyton
+coverage
 
 exercicio-Bonus.js
 
