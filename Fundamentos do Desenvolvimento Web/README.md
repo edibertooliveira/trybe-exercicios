@@ -109,7 +109,7 @@ Desenvolvimento de software, Tecnologia, Metodologias ágeis, Educação, Desenv
 - [x] 10-1: _Primeiros passos no Jest_
 - [x] 10-2: _Jest - Testes Assíncronos_
 - [x] 10-3: _Jest - Simulando comportamentos_
-- [x] 10-4: _Projeto - [Jest Assíncrono e Mocking]()_
+- [x] 10-4: _Projeto - [Jest Assíncrono e Mocking](https://github.com/tryber/sd-08-project-jest/pull/15)_
 
  </br>
 
