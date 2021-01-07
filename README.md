@@ -14,7 +14,7 @@ Desenvolvimento de software, Tecnologia, Metodologias ágeis, Educação, Desenv
 
 ## :pushpin: Índice
 
-- [Introdução Desenvolvimento Web](https://github.com/edibertooliveira/trybe-exercicios)
+- [Introdução Desenvolvimento Web](https://github.com/edibertooliveira/trybe-exercicios/tree/master/Fundamentos%20do%20Desenvolvimento%20Web)
 - [Desenvolvimento Front-end](#Desenvolvimento-Front-end)
 
 ## Introdução Desenvolvimento Web
