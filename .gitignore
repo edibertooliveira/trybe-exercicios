@@ -1,24 +1,5 @@
-node_modules
+/node_modules
 
-#style
-
-
-#file igore
-
-#file log
-
-#file exercises
-exercicio-Bonus01.test.js
-exercicio-Bonus02.test.js
-exercicio-Bonus03.test.js
-exercicio-Bonus04.test.js
-Linguagem Phyton
-Linguagem Dart
-coverage
-
-
-exercicio-Bonus.js
-
-outros/
-
-
+Bloco_11/11-2
+Bloco_12
+Bloco_13
