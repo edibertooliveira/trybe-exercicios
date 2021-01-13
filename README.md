@@ -39,8 +39,20 @@ Desenvolvimento de software, Tecnologia, Metodologias ágeis, Educação, Desenv
 
 #### Bloco 11: Introdução à React
 
-- [ ] 11-1: 'Hello, world!' no React!
-- [ ] 11-2: Componentes React
+- [x] 11-1: 'Hello, world!' no React!
+- [x] 11-2: Componentes React
 - [ ] 11-3: [Projeto - Movie Cards Library]()
+
+#### Bloco 12: React
+
+- [ ] 12-1: Components com estado
+- [ ] 12-2: Eventos e formulários no React
+- [ ] 12-3: Projeto - Movie Cards Library Stateful
+
+#### Bloco 13: React
+
+- [ ] 13-1: Ciclo de vida de componentes em React
+- [ ] 13-2: React Router
+- [ ] 13-3: Projeto - Movie Cards Library CRUD
 
 #### [...]
