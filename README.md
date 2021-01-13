@@ -45,8 +45,8 @@ Desenvolvimento de software, Tecnologia, Metodologias ágeis, Educação, Desenv
 
 #### Bloco 12: React
 
-- [ ] 12-1: Components com estado
-- [ ] 12-2: Eventos e formulários no React
+- [x] 12-1: Components com estado
+- [x] 12-2: Eventos e formulários no React
 - [ ] 12-3: Projeto - Movie Cards Library Stateful
 
 #### Bloco 13: React
