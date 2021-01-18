@@ -2,8 +2,8 @@
 
 ## Exercicio
 
-#### Bloco 12: React
+#### Bloco 13: React
 
-- [x] 12-1: Components com estado
-- [x] 12-2: Eventos e formulários no React
-- [ ] 12-3: Projeto - Movie Cards Library Stateful
+- [ ] 13-1: Ciclo de vida de componentes em React
+- [ ] 13-2: React Router
+- [ ] 13-3: Projeto - Movie Cards Library CRUD
