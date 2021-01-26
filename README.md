@@ -43,13 +43,13 @@ Desenvolvimento de software, Tecnologia, Metodologias ágeis, Educação, Desenv
 - [x] 11-2: Componentes React
 - [x] 11-3: [Projeto - Movie Cards Library](https://github.com/tryber/sd-08-project-movie-cards-library/pull/9)
 
-#### Bloco 12: React
+#### Bloco 12: Componentes com Estado, Eventos e Formulários com React
 
 - [x] 12-1: Components com estado
 - [x] 12-2: Eventos e formulários no React
 - [ ] 12-3: [Projeto - Movie Cards Library Stateful]()
 
-#### Bloco 13: React
+#### Bloco 13: Ciclo de Vida de Componentes e React Router
 
 - [x] 13-1: Ciclo de vida de componentes em React
 - [x] 13-2: React Router
