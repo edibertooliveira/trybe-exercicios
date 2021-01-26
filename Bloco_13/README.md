@@ -4,6 +4,6 @@
 
 #### Bloco 13: React
 
-- [ ] 13-1: Ciclo de vida de componentes em React
-- [ ] 13-2: React Router
-- [ ] 13-3: Projeto - Movie Cards Library CRUD
+- [x] 13-1: Ciclo de vida de componentes em React
+- [x] 13-2: React Router
+- [x] 13-3:[ Projeto - Movie Cards Library CRUD](https://github.com/tryber/sd-08-project-movie-cards-library-crud/pull/5)
