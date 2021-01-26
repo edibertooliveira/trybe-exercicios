@@ -47,7 +47,7 @@ Desenvolvimento de software, Tecnologia, Metodologias ágeis, Educação, Desenv
 
 - [x] 12-1: Components com estado
 - [x] 12-2: Eventos e formulários no React
-- [ ] 12-3: [Projeto - Movie Cards Library Stateful]()
+- [x] 12-3: [Projeto - Movie Cards Library Stateful]()
 
 #### Bloco 13: Ciclo de Vida de Componentes e React Router
 
