@@ -53,6 +53,20 @@ Desenvolvimento de software, Tecnologia, Metodologias ágeis, Educação, Desenv
 
 - [x] 13-1: Ciclo de vida de componentes em React
 - [x] 13-2: React Router
-- [x] 13-3:[ Projeto - Movie Cards Library CRUD](https://github.com/tryber/sd-08-project-movie-cards-library-crud/pull/5)
+- [x] 13-3:[ Projeto - Movie Cards Library CRUD](https://github.com/tryber/sd-08-project-movie-cards-library-crud/pull/5);
+
+### Bloco 14: Metodologias Ágeis
+
+- [x] 14-1: Metodologias Ágeis
+- [x] 14-2: [Projeto - Frontend Online Store](https://github.com/tryber/sd-08-project-frontend-online-store/pull/136);
+
+### Bloco 15: Testes em React
+
+ - [x] 15-1: RTL - Primeiros passos
+ - [x] 15-2: RTL - Mocks e Inputs
+ - [x] 15-3: RTL - Testando React Router
+ - [ ] 15-4: [Projeto - Testes em React]()
+
+ 
 
 #### [...]
