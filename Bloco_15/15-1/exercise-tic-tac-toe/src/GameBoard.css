@@ -1,6 +1,8 @@
 .game-board {
-  display: flex;
+  display: grid;
+  width: 600px;
+  grid-template-columns: repeat(3, 3fr);
+  grid-template-rows: repeat(3, 3fr);
   flex-wrap: wrap;
   height: auto;
-  width: 120px;
 }
