@@ -21,15 +21,14 @@ Desenvolvimento de software, Tecnologia, Metodologias ágeis, Educação, Desenv
 
 ### capaz de:
 
-- Utilizar o bash.
-- Entender como a internet funciona, seus principais conceitos e terminologias.
-- Utilizar de forma confortável o Git e o Github.
-- Criar documentos HTML estilizados com CSS.
-- Utilizar o JavaScript para adicionar comportamento a páginas web.
-- Utilizar recursos de HTML e CSS Avançado.
-- Trabalhar com JavaScript ES6.
-- Criar códigos assíncronos em JavaScript.
-- Escrever testes unitários
+- Criar aplicações completas de front-end utilizando a biblioteca React.
+- Ler, inicializar, atualizar e Capturar o estado de um componente e usá-lo para alterar o que exibimos no browser.
+- Utilizar o Ciclo de vida de componentes para executar ações antes e após o componente ser inserido no DOM
+- Trabalhar em equipes utilizando Kanban ou Scrum de maneira eficaz.
+- Escrever testes que permitam a refatoração da estrutura dos componentes da aplicação sem necessidade de serem alterados.
+- Utilizar o React Hooks e criar Hooks customizados.
+- Introduzir Redux ão estado global da aplicação, uitilizando Reducers e Actions para atualizar a Store.
+- Utilizar a Context API do React para gerenciar estado.
 
 ## Desenvolvimento Front-end
 
@@ -67,6 +66,13 @@ Desenvolvimento de software, Tecnologia, Metodologias ágeis, Educação, Desenv
  - [x] 15-3: RTL - Testando React Router
  - [ ] 15-4: [Projeto - Testes em React]()
 
- 
+ ### Bloco 16: Introdução ao Redux
+
+ - [ ] 16-1: Introdução ao Redux
+ - [ ] 16-2: React com Redux - Parte 1
+ - [ ] 16-3: React com Redux - Prática
+ - [ ] 16-4: React com Redux - Parte 2
+ - [ ] 16-5: Testes síncronos com React-Redux
+ - [ ] 16-6: [Projeto - Tabela com filtros de dados]()
 
 #### [...]
