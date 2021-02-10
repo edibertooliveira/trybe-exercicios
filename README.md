@@ -64,15 +64,30 @@ Desenvolvimento de software, Tecnologia, Metodologias ágeis, Educação, Desenv
  - [x] 15-1: RTL - Primeiros passos
  - [x] 15-2: RTL - Mocks e Inputs
  - [x] 15-3: RTL - Testando React Router
- - [ ] 15-4: [Projeto - Testes em React]()
+ - [x] 15-4: [Projeto - Testes em React](https://github.com/tryber/sd-08-project-react-testing-library/pull/5)
 
  ### Bloco 16: Introdução ao Redux
 
- - [ ] 16-1: Introdução ao Redux
+ - [x] 16-1: Introdução ao Redux
  - [ ] 16-2: React com Redux - Parte 1
  - [ ] 16-3: React com Redux - Prática
  - [ ] 16-4: React com Redux - Parte 2
  - [ ] 16-5: Testes síncronos com React-Redux
  - [ ] 16-6: [Projeto - Tabela com filtros de dados]()
+
+ ### Bloco 17: Projeto React
+
+ - [ ] 17-1: [Projeto - Jogo de Trivia]()
+
+ ### Bloco 18: React & Context API
+
+ - [ ] 18-1: Context API do React
+ - [ ] 18-2: React Hooks - useState e useContext
+ - [ ] 18-3: React Hooks - useEffect e Hooks customizados
+ - [ ] 18-4: [Projeto - StarWars Datatable com Context API e Hooks]()
+
+ ### Bloco 19: Projeto Final de Front-end
+ 
+ - [ ] 19-1: [Projeto - App de Receitas]()
 
 #### [...]
