@@ -1,25 +1,19 @@
 import React from 'react';
 import './App.css';
 import {
-  Route, Switch, Link,
+  Route, Switch
 } from 'react-router-dom';
 
 import Home from './pages/Home';
 import Projects from './pages/Projects';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import Header from './components/Header/Header';
 
 function App() {
   return (
     <div>
-      <div className="content">
-        <p>
-          <Link to="/">Inicio</Link>
-          <Link to="/page/projects">Projetos</Link>
-          <Link to="/page/about">Sobre mim</Link>
-          <Link to="/page/contact"> Contato</Link>
-        </p>
-      </div>
+      <Header />
       <Switch>
         <Route
           exact
