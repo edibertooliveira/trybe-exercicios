@@ -1,8 +1,12 @@
 .game-board {
+  background-color: rgb(19, 42, 19);
+  border-radius: 15px;
   display: grid;
-  width: 600px;
-  grid-template-columns: repeat(3, 3fr);
-  grid-template-rows: repeat(3, 3fr);
   flex-wrap: wrap;
   height: auto;
+  justify-content: center;
+  grid-template-columns: repeat(3, 3fr);
+  grid-template-rows: repeat(3, 3fr);
+  padding: 10px;
+  width: 500px;
 }
