@@ -1,7 +1,11 @@
 .game-cell {
-  border: 1px solid black;
-  height: 200px;
-  width: 200px;
+  background-color: rgb(144, 169, 85);
+  border-radius: 15px;
+  height: 150px;
+  width: 150px;
+  margin: 5px;
+  justify-self: center;
+  align-self: center;
 }
 
 img {
