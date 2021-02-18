@@ -1,9 +1,10 @@
 import React from 'react';
 import { SearchBar, PostsList } from '../components';
+import '../styles/searchOnReddit.css'
 
 function index() {
   return (
-    <div className="search-on-reddit">
+    <div className="searchOnReddit">
       <SearchBar />
       <PostsList />
     </div>
