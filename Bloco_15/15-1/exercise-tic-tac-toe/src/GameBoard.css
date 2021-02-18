@@ -1,5 +1,5 @@
 .game-board {
-  background-color: rgb(19, 42, 19);
+  background-color: #036b52;
   border-radius: 15px;
   display: grid;
   flex-wrap: wrap;
