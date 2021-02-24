@@ -72,7 +72,7 @@ Desenvolvimento de software, Tecnologia, Metodologias ágeis, Educação, Desenv
  - [x] 16-2: React com Redux - Parte 1
  - [x] 16-3: React com Redux - Prática
  - [x] 16-4: React com Redux - Parte 2
- - [ ] 16-5: Testes síncronos com React-Redux
+ - [x] 16-5: Testes síncronos com React-Redux
  - [ ] 16-6: [Projeto - Tabela com filtros de dados]()
 
  ### Bloco 17: Projeto React
