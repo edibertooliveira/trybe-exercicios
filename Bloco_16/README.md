@@ -9,4 +9,4 @@
  - [x] 16-3: Usando o Redux no React - Prática
  - [x] 16-4: Usando o Redux no React - Actions Assíncronas
  - [x] 16-5: Testes em React-Redux
- - [ ] 16-6: [Projeto - Trybe Wallet]()
+ - [x] 16-6: [Projeto - Trybe Wallet](https://github.com/tryber/sd-08-project-trybewallet/pull/3)

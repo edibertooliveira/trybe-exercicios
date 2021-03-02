@@ -73,7 +73,7 @@ Desenvolvimento de software, Tecnologia, Metodologias ágeis, Educação, Desenv
  - [x] 16-3: React com Redux - Prática
  - [x] 16-4: React com Redux - Parte 2
  - [x] 16-5: Testes síncronos com React-Redux
- - [ ] 16-6: [Projeto - Tabela com filtros de dados]()
+ - [x] 16-6: [Projeto - Tabela com filtros de dados](https://github.com/tryber/sd-08-project-trybewallet/pull/3)
 
  ### Bloco 17: Projeto React
 
