@@ -77,7 +77,7 @@ Desenvolvimento de software, Tecnologia, Metodologias ágeis, Educação, Desenv
 
  ### Bloco 17: Projeto React
 
- - [ ] 17-1: [Projeto - Jogo de Trivia]()
+ - [x] 17-1: [Projeto - Jogo de Trivia](https://github.com/tryber/sd-08-project-trivia-react-redux/pull/32)
 
  ### Bloco 18: React & Context API
 
