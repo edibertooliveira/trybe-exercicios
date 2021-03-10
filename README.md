@@ -81,8 +81,8 @@ Desenvolvimento de software, Tecnologia, Metodologias ágeis, Educação, Desenv
 
  ### Bloco 18: React & Context API
 
- - [ ] 18-1: Context API do React
- - [ ] 18-2: React Hooks - useState e useContext
+ - [x] 18-1: Context API do React
+ - [x] 18-2: React Hooks - useState e useContext
  - [ ] 18-3: React Hooks - useEffect e Hooks customizados
  - [ ] 18-4: [Projeto - StarWars Datatable com Context API e Hooks]()
 
