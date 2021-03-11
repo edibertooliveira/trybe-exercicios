@@ -4,5 +4,5 @@
 
  - [x] 18-1: Context API do React
  - [x] 18-2: React Hooks - useState e useContext
- - [ ] 18-3: React Hooks - useEffect e Hooks customizados
+ - [x] 18-3: React Hooks - useEffect e Hooks customizados
  - [ ] 18-4: [Projeto - StarWars Datatable com Context API e Hooks]()
