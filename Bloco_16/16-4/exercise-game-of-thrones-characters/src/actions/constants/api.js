@@ -1,5 +1,0 @@
-export const REQUEST_API = 'REQUEST_API';
-export const GET_CHARACTER = 'GET_CHARACTER';
-export const FAILED_REQUEST = 'FAILED_REQUEST';
-
-
