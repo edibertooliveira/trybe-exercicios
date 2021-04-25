@@ -29,19 +29,19 @@ Bloco 20: Introdução à SQL
  - [x] 20-1: Banco de dados relacionais
  - [x] 20-2: Encontrando dados em um banco de dados
  - [x] 20-3: Filtrando dados de forma específica
- - [ ] 20-4: Manipulando tabelas
- - [ ] 20-5: [Projeto - All For One]()
+ - [x] 20-4: Manipulando tabelas
+ - [x] 20-5: [Projeto - All For One](https://github.com/tryber/sd-08-mysql-all-for-one/pull/93)
 
 Bloco 21: Funções SQL, Joins e Subqueries
- - [ ] 21-1: Funções mais usadas no SQL
- - [ ] 21-2: Descomplicando JOINs e UNIONs e Subqueries
- - [ ] 21-3: Stored Routines & Stored Functions
- - [ ] 21-4: [Projeto - Vocabulary Booster- ]()
+ - [x] 21-1: Funções mais usadas no SQL
+ - [x] 21-2: Descomplicando JOINs e UNIONs e Subqueries
+ - [x] 21-3: Stored Routines & Stored Functions
+ - [x] 21-4: [Projeto - Vocabulary Booster- ](https://github.com/tryber/sd-08-mysql-vocabulary-booster/pull/20)
 
 Bloco 22: Normalização e Modelagem de Banco de Dados
- - [ ] 22-1: Transformando ideias em um modelo de banco de dados
- - [ ] 22-2: Normalização, Formas Normais e Dumps
- - [ ] 22-2: Transformando ideias em um modelo de banco de dados - Parte 2
+ - [x] 22-1: Transformando ideias em um modelo de banco de dados
+ - [x] 22-2: Normalização, Formas Normais e Dumps
+ - [x] 22-2: Transformando ideias em um modelo de banco de dados - Parte 2
  - [ ] 22-3: [Projeto - One For All]()
 
 #### [...]
